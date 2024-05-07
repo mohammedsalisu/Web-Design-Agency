@@ -6,55 +6,64 @@ body {
   flex-direction: column;
   min-height: 95vh;
 }
-
 .main  {
   flex: 1;
-  
-}
-
-.baba {
-  display: flex;
-}
-
-.card { 
-  display: flex;
-  flex: 1;
-  margin: 0px 10px 0px 0px
-}
-
-.left {
-  margin-right: 100px;
-}
-
-span {
-  color: #191970;
-}
-
-.lt {
-  flex: 1;
-  margin: 0px 10px 0px 0px;
-}
-
-.rt {
-  flex: 1;
-  margin: 0px 10px 0px 0px;
 }
 
 h1 {
   font-size: 5rem;
 }
 
-
 footer {
   text-align: right;
   color: midnightblue;
-  margin: 0px;
 }
 
 .tile-image {
   height: 200px;
-  width: 300px;
+  float: left;
+  margin-right: 50px;
 }
 
+.card { 
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.creative {
+  color: midnightblue;
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+  
+ h1 {
+  font-size: 3.5rem;
+  text-align: center;
+ }
+
+ .card { 
+   width: 100%;
+   display: block;
+   margin-bottom: 30px;
+   
+ }
+
+ .card img {
+   margin-bottom: 10px;
+   width: 100%;
+   display: inline;
+   object-fit: cover;
+ }
+}
 
 
